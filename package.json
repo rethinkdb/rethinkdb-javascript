@@ -2,6 +2,7 @@
     "name": "rethinkdb",
     "version": "2.4.2",
     "main": "rethinkdb",
+    "license": "Apache-2.0",
     "description": "This package provides the JavaScript driver library for the RethinkDB database server for use in your node application.",
     "scripts": {
         "get-proto": "./scripts/prepare.sh",
