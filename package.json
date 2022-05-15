@@ -1,6 +1,6 @@
 {
     "name": "rethinkdb",
-    "version": "2.4.2",
+    "version": "2.5.0",
     "main": "rethinkdb",
     "license": "Apache-2.0",
     "description": "This package provides the JavaScript driver library for the RethinkDB database server for use in your node application.",
@@ -17,7 +17,7 @@
     ],
     "homepage": "https://rethinkdb.com",
     "bugs": {
-        "url": "https://github.com/rethinkdb/rethinkdb/issues",
+        "url": "https://github.com/rethinkdb/rethinkdb-javascript/issues",
         "email": "bugs@rethinkdb.com"
     },
     "files": [
@@ -32,7 +32,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/rethinkdb/rethinkdb.git"
+        "url": "https://github.com/rethinkdb/rethinkdb-javascript.git"
     },
     "engines": {
         "node": ">= 0.10.0"
