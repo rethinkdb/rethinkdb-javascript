@@ -1,10 +1,9 @@
 #!/bin/bash
 
-PACKAGE_NAME="src"
 BUILD_DIR="dist"
 
 PROTO_FILE_NAME="ql2.proto"
-PROTO_FILE_URL="https://raw.githubusercontent.com/rethinkdb/rethinkdb/next/src/rdb_protocol/${PROTO_FILE_NAME}"
+PROTO_FILE_URL="https://raw.githubusercontent.com/rethinkdb/rethinkdb/80b4c72a564230bccc761183ef27bca00fe9a012/src/rdb_protocol/${PROTO_FILE_NAME}"
 TARGET_PROTO_FILE="${BUILD_DIR}/${PROTO_FILE_NAME}"
 
 FILE_CONVERTER_NAME="./scripts/convert_protofile.py"
